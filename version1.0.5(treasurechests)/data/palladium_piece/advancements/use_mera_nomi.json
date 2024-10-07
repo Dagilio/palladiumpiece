@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "use_mera_nomi": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "palladium_piece:mera_nomi"
+            ]
+            
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "use_goro_nomi": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "palladium_piece:goro_nomi"
+            ]
+            
+          }
+        }
+      }
+    }
+  }

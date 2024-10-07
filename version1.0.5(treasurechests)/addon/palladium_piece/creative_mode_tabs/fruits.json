@@ -1,0 +1,12 @@
+{
+    "icon": "palladium_piece:strawhat",
+    "title": "Devil Fruits",
+    "items": [
+        "palladium_piece:old_chest",
+        "palladium_piece:pirate_chest",
+        "palladium_piece:marine_chest",
+        "palladium_piece:mera_nomi",
+        "palladium_piece:goro_nomi",
+        "palladium_piece:hije_nomi"
+    ]
+}

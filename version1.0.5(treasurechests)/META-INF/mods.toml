@@ -1,0 +1,23 @@
+modLoader = 'lowcodefml'
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="palladium_piece"
+displayName="Palladium Piece"
+version="1.0.0"
+logoFile = "pack.png"
+logoBlur = false
+credits = "All code and art made by Dagilio except for raycasting function made by Ben Wilcox"
+authors = "Dagilio"
+description='''
+Adds One piece powers.
+'''
+
+[[dependencies.palladium_piece]]
+modId = "palladium"
+mandatory = false
+versionRange = ">=4.0.0.0"
+ordering = "NONE"
+side = "BOTH"

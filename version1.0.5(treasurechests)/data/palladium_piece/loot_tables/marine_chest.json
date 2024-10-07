@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:goro_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:mera_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:hije_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:stone_axe",
+                  "minecraft:iron_axe",
+                  "minecraft:diamond_axe",
+                  "minecraft:netherite_axe"
+                ]
+              },
+              "offhand": {
+                "items": [
+                  "palladium_piece:old_chest"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "palladium_piece:use_old_chest"
+    }
+  }
+  

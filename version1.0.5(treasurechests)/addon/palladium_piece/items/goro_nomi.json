@@ -1,0 +1,24 @@
+{
+    "max_stack_size": 1,
+    "creative_mode_tab": {
+      "tab": "palladium_piece:fruits"
+  },
+    "food": {
+      "nutrition": 10,
+      "saturation_modifier": 1,
+      "meat": false,
+      "can_always_eat": true,
+      "fast": false,
+      "effects": [
+          {
+              "mob_effect": "minecraft:nausea",
+              "duration": 300,
+              "amplifier": 2,
+              "ambient": false,
+              "visible": false,
+              "show_icon": false,
+              "probability": 1
+          }
+      ]
+  }
+  }

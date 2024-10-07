@@ -1,0 +1,104 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "weight": 35,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.35
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 70,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 9
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.7
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:goro_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:mera_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "palladium_piece:hije_nomi",
+            "weight": 20,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

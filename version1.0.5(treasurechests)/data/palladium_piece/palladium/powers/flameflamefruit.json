@@ -1,0 +1,27 @@
+{
+    "name": "Flame-Flame Fruit",
+    "background": "minecraft:textures/block/lava_flow.png",
+    "icon": "palladium_piece:textures/item/mera_nomi.png",
+    "abilities": 
+    {
+      "flamethrower": {
+        "type": "palladium:command",
+        "icon": "minecraft:blaze_rod",
+        "title": "Flame Thrower",
+        "description": "Makes fire wherever you look",
+        "commands": [
+          "function ra:general/summonblock",  
+          "execute as @e[tag=RAhitBlock] at @s run setblock ~ ~1 ~ minecraft:fire"
+        ],
+        "conditions":{
+            "enabling":
+                {
+                    
+                    "type": "palladium:held",
+                    "cooldown": 100
+
+                }
+            }
+        }
+    }
+}

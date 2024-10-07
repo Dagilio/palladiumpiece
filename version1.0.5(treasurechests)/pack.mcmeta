@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "id": "palladium_piece",
+    "description": "Dagilio's One piece addon",
+    "pack_format": 15,
+    "version": "1.0.0"
+  },
+  "dependencies": {
+    "common": {
+      "minecraft": ">=1.20",
+      "palladium": "*"
+		}
+	}
+}
