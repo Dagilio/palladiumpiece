@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "use_hije_nomi": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:golden_apple"
+            ],
+            "nbt": "{CustomModelData:7810001}"
+          }
+        }
+      }
+    }
+  }

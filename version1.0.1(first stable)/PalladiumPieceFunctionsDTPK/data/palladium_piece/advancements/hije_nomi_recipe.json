@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "palladium_piece:hije_nomi_recipe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "palladium_piece:hije_nomi_recipe"
+  }
+}

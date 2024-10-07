@@ -1,0 +1,21 @@
+modLoader = 'lowcodefml'
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="palladium_piece"
+displayName="Palladium Piece"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+description='''
+Adds one piece powers
+'''
+
+[[dependencies.palladium_piece]]
+modId = "palladium"
+mandatory = true
+versionRange = ""
+ordering = "NONE"
+side = "BOTH"
