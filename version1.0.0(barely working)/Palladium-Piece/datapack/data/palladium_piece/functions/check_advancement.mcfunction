@@ -1,0 +1,2 @@
+execute as @a[advancements={palladium_piece:use_hije_nomi=true}] as @s run superpower add palladium_piece:iceicefruit
+execute as @a[advancements={palladium_piece:use_hije_nomi=true}] run advancement revoke @s only palladium_piece:use_hije_nomi
