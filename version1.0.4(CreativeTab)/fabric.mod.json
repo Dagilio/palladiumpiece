@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "authors": ["Dagilio"],
+    "environment": "*",
+    "name": "Palladium Piece",
+    "id": "palladium_piece",
+    "version": "1.0.0",
+    "description": "Adds one piece powers",
+    "icon": "pack.png",
+    "license": "All rights reserved"
+}

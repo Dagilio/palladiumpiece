@@ -1,0 +1,26 @@
+{
+    "name": "Lightning-Lightning Fruit",
+    "background": "minecraft:textures/block/glowstone.png",
+    "icon": "palladium_piece:textures/item/goro_nomi.png",
+    "abilities": 
+    {
+      "iceage": {
+        "type": "palladium:command",
+        "icon": "minecraft:lightning_rod",
+        "title": "Thunder Strike",
+        "description": "Summons Lightning where you look",
+        "commands": [
+          "function ra:general/summonblock",  
+          "execute as @e[tag=RAhitBlock] at @s run summon minecraft:lightning_bolt ~ ~ ~"
+        ],
+        "conditions":{
+            "enabling":
+            {
+                "type": "palladium:activation",
+                "cooldown": 20,
+                "ticks": 1
+            }
+            }
+        }
+    }
+}

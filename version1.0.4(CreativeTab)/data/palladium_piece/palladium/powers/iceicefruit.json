@@ -1,0 +1,27 @@
+{
+    "name": "Ice-Ice Fruit",
+    "background": "minecraft:textures/block/packed_ice.png",
+    "icon": "palladium_piece:textures/item/hije_nomi.png",
+    "abilities": 
+    {
+      "iceage": {
+        "type": "palladium:command",
+        "icon": "minecraft:ice",
+        "title": "Ice Age",
+        "description": "Makes ice wherever you look",
+        "commands": [
+          "function ra:general/summonblock",  
+          "execute as @e[tag=RAhitBlock] at @s run setblock ~ ~ ~ minecraft:ice replace"
+        ],
+        "conditions":{
+            "enabling":
+                {
+                    
+                    "type": "palladium:held",
+                    "cooldown": 100
+
+                }
+            }
+        }
+    }
+}
