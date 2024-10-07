@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "authors": [],
+    "environment": "*",
+    "name": "Palladium Piece",
+    "id": "palladium_piece",
+    "version": "1.0.0",
+    "description": "Adds one piece powers",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}

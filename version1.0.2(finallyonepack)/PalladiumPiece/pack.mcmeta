@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "id": "palladium_piece",
+    "description": "Adds one piece powers",
+    "pack_format": 15,
+    "version": "1.0.2"
+  },
+  "dependencies": {
+    "common": {
+    },
+    "fabric": {
+    },
+    "forge": {
+    }
+  }
+}

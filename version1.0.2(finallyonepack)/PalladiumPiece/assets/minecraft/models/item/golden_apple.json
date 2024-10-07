@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_apple"
+  },
+  "overrides":
+  [
+    { "predicate": { "custom_model_data": 7810001}, "model": "custommodels/hije_nomi"}
+  ]
+  
+}
